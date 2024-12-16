@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tniSI6KohAY=",
+  "success": true,
+  "projectFilePath": "D:\\Git\\Github\\StarterKit-CleanArchitecture\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Diot\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
