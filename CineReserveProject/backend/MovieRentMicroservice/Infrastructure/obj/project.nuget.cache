@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tniSI6KohAY=",
+  "dgSpecHash": "4FHPj3H+NgOX+NR5JzGssqvJpa7n1fS/pJw6pbAcSubDb5C0ca1C94NgpxCI4huj6/OxtLQ21WDvI1iQ+q3tXQ==",
   "success": true,
-  "projectFilePath": "D:\\Git\\Github\\StarterKit-CleanArchitecture\\CleanArchitecture\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Diot\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+    "C:\\Users\\clemd\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }
