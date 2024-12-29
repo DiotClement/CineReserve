@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DyQ+5NMIx0bDnjgfPgrSIpJlQt9ZITv9N2Z0ej3KYBZ/hgDiZ21klDNXtXhSJJ0uUfs1HMIWF2uozhZ0pASs5A==",
+  "dgSpecHash": "EwgW6zC2qtvqXRTDPU4dPy1q4uxSkIPgtH/+FTVysM0qHubH2y41KjfN1EQIDYIW/VBJNFaGKw2I62A19EDQ+Q==",
   "success": true,
-  "projectFilePath": "C:\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
