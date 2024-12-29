@@ -1,0 +1,26 @@
+name: CI for MovieRent microservice 🧪
+
+on:
+  pull_request:
+    branches: [ master, develop, release/*, hotfix/* ]
+
+env:
+  DOTNET_VERSION: '8.0.x'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET 📦
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+    
+      - name: Install dependencies 📂
+        run: dotnet restore CineReserveProject/backend/MovieRentMicroservice/Presentation/Presentation.csproj
+
+      - name: Build 🧱
+        run: dotnet build CineReserveProject/backend/MovieRentMicroservice/Presentation/Presentation.csproj --configuration Release --no-restore
