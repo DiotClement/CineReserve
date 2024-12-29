@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2BD07CF3-FD69-491A-A1BC-C547738879C7}|Application\\Application.csproj|c:\\users\\clemd\\desktop\\git\\github\\cinereserve\\cinereserveproject\\backend\\movierentmicroservice\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BD07CF3-FD69-491A-A1BC-C547738879C7}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2BD07CF3-FD69-491A-A1BC-C547738879C7}|Application\\Application.csproj|c:\\users\\clemd\\desktop\\git\\github\\cinereserve\\cinereserveproject\\backend\\movierentmicroservice\\application\\movie\\queryhandlers\\getallmoviesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BD07CF3-FD69-491A-A1BC-C547738879C7}|Application\\Application.csproj|solutionrelative:application\\movie\\queryhandlers\\getallmoviesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,11 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Application",
+              "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T16:27:02.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Presentation\\Controllers\\BaseApiController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\BaseApiController.cs",
@@ -90,12 +107,11 @@
               "RelativeToolTip": "Presentation\\Controllers\\BaseApiController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T14:10:06.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T14:10:06.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Presentation\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\MoviesController.cs",
@@ -103,12 +119,11 @@
               "RelativeToolTip": "Presentation\\Controllers\\MoviesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:57:32.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:57:32.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Presentation\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\Program.cs",
@@ -116,12 +131,11 @@
               "RelativeToolTip": "Presentation\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T14:08:00.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T14:08:00.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -129,12 +143,11 @@
               "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T18:25:41.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T18:25:41.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GetAllMoviesQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Application\\Movie\\QueryHandlers\\GetAllMoviesQueryHandler.cs",
               "RelativeDocumentMoniker": "Application\\Movie\\QueryHandlers\\GetAllMoviesQueryHandler.cs",
@@ -147,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Presentation\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Presentation\\appsettings.Development.json",
@@ -155,12 +168,11 @@
               "RelativeToolTip": "Presentation\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-29T15:59:15.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T15:59:15.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Abstractions\\Result.cs",
               "RelativeDocumentMoniker": "Domain\\Abstractions\\Result.cs",
@@ -168,12 +180,11 @@
               "RelativeToolTip": "Domain\\Abstractions\\Result.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T10:53:25.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T10:53:25.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Presentation\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Presentation\\Properties\\launchSettings.json",
@@ -181,12 +192,11 @@
               "RelativeToolTip": "Presentation\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-26T10:44:46.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T10:44:46.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
@@ -194,12 +204,11 @@
               "RelativeToolTip": "Application\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T09:29:09.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T09:29:09.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Presentation\\appsettings.json",
               "RelativeDocumentMoniker": "Presentation\\appsettings.json",
@@ -207,12 +216,11 @@
               "RelativeToolTip": "Presentation\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-25T23:33:23.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T23:33:23.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Error.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Abstractions\\Error.cs",
               "RelativeDocumentMoniker": "Domain\\Abstractions\\Error.cs",
@@ -220,12 +228,11 @@
               "RelativeToolTip": "Domain\\Abstractions\\Error.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T13:12:52.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T13:12:52.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IDbConnectionFactory.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Application\\Abstractions\\IDbConnectionFactory.cs",
               "RelativeDocumentMoniker": "Application\\Abstractions\\IDbConnectionFactory.cs",
@@ -233,12 +240,11 @@
               "RelativeToolTip": "Application\\Abstractions\\IDbConnectionFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T18:39:58.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T18:39:58.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GetAllMoviesQuery.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Application\\Movie\\Queries\\GetAllMoviesQuery.cs",
               "RelativeDocumentMoniker": "Application\\Movie\\Queries\\GetAllMoviesQuery.cs",
@@ -246,12 +252,11 @@
               "RelativeToolTip": "Application\\Movie\\Queries\\GetAllMoviesQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T09:39:12.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T09:39:12.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DbConnectionFactory.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Infrastructure\\Persistance\\DbConnectionFactory.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistance\\DbConnectionFactory.cs",
@@ -259,12 +264,11 @@
               "RelativeToolTip": "Infrastructure\\Persistance\\DbConnectionFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T18:36:08.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T18:36:08.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Schedule.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Entities\\Schedule.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Schedule.cs",
@@ -272,12 +276,11 @@
               "RelativeToolTip": "Domain\\Entities\\Schedule.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T17:58:55.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T17:58:55.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Entities\\Reservation.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Reservation.cs",
@@ -285,12 +288,11 @@
               "RelativeToolTip": "Domain\\Entities\\Reservation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T18:04:59.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T18:04:59.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Entities\\Movie.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Movie.cs",
@@ -298,8 +300,7 @@
               "RelativeToolTip": "Domain\\Entities\\Movie.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T10:59:04.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T10:59:04.568Z"
             }
           ]
         }
