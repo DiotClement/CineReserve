@@ -46,4 +46,14 @@
 	{
 		public static readonly Error NoMovieFound = Error.NotFound("Movies.NotFound", "No movies found in the database.");
 	}
+
+	public static class ScheduleErrors
+	{
+		public static readonly Error NoScheduleFound = Error.NotFound("Schedules.NotFound", "No schedule found for this movie in the database.");
+	}
+
+	public static class ReservationsErrors
+	{
+		public static readonly Error InsertReservationFailure = Error.Failure("Reservations.Failure", "Error executing the sql query to insert a reservation in the database.");
+	}
 }

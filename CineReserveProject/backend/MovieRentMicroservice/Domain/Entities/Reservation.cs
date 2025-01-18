@@ -14,10 +14,5 @@
 		/// Gets or sets the seat count.
 		/// </summary>
 		public int SeatCount { get; set; }
-
-		/// <summary>
-		/// Gets or sets the associated shedule.
-		/// </summary>
-		public Schedule Schedule { get; set; } = new Schedule();
 	}
 }

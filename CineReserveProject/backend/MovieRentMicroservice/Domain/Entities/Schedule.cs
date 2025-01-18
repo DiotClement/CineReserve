@@ -13,11 +13,6 @@
 		/// <summary>
 		/// Gets or sets the showtime.
 		/// </summary>
-		public int Showtime { get; set; }
-
-		/// <summary>
-		/// Gets or sets the associated movie.
-		/// </summary>
-		public Movie Movie { get; set; } = new Movie();
+		public TimeSpan Showtime { get; set; }
 	}
 }

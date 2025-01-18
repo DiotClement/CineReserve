@@ -25,7 +25,7 @@
 			Result<TResponse> result = await _mediator.Send(request, cancellationToken);
 
 			return result.Match(
-				onSuccess: data => Ok(data),
+				onSuccess: data => Ok(Result.Success(data)),
 				onFailure: Problem);
 		}
 
