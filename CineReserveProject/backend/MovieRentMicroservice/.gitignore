@@ -1,2 +1,5 @@
 # Exclude environment-specific configuration for development
 Presentation/appsettings.Development.json
+
+# Visual Studio temp something
+.vs/
