@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nzbNTW7Ha9pJdjeLyrOrMpt+KEafmKwGeiz0VuQJrKdFsVwUtBkrY1ICuWUyGVvA40eiASXd/aoOWD4mPnkbeA==",
+  "dgSpecHash": "F/VQ3f+sOVAWgm9fjpYDAK/MM6ENaNuq76ZwACMltuQ5FP3LdiMTkNx/X6AYuqYCvKYDs0CFGnN2r4GuPWUYXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Infrastructure\\MovieRentMicroservice.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\clemd\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\clemd\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

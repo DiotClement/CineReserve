@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Application\MovieRentMicroservice.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\MovieRentMicroservice.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

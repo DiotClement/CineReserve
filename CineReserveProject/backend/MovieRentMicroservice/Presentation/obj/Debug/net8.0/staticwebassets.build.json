@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "uA4PscVLrzDlBxDyFkUleeR9VGM/ZvO3tVpSht4hk3M=",
-  "Source": "Presentation",
-  "BasePath": "_content/Presentation",
+  "Hash": "wb6Zz8rnP8u2+vEYxQ9L621VOb78os6IVNBFgmp9pAM=",
+  "Source": "MovieRentMicroservice.Presentation",
+  "BasePath": "_content/MovieRentMicroservice.Presentation",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

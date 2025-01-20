@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\MovieRentMicroservice.Domain.csproj",
+      "projectName": "MovieRentMicroservice.Domain",
+      "projectPath": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\MovieRentMicroservice.Domain.csproj",
       "packagesPath": "C:\\Users\\clemd\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\clemd\\Desktop\\Git\\Github\\CineReserve\\CineReserveProject\\backend\\MovieRentMicroservice\\Domain\\obj\\",
       "projectStyle": "PackageReference",
