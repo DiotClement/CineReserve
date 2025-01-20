@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  movierentmicroservice.presentation:
+    image: diotclementt/movierent-microservice-api:v1
+    container_name: movierentmicroservice.presentation
+    ports:
+      - "5000:5000"
+    depends_on:
+      - movierentmicroservice.database
+
+  movierentmicroservice.database:
+    image: postgres:latest
+    container_name: movierentmicroservice.database
+    environment:
+      - POSTGRES_DB=MOVIE_RENT
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+    restart: always
+    volumes:
+      - ./.containers/movie-rent-db:/var/lib/postgresql/data
+      - ./.database/movie_rent_dump.sql:/docker-entrypoint-initdb.d/movie_rent_dump.sql
+    ports:
+      - 5432:5432
