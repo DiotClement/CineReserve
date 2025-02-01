@@ -2,7 +2,7 @@
   "name": "frontend-vue",
   "private": true,
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
@@ -15,6 +15,7 @@
     "@mdi/font": "7.4.47",
     "axios": "^1.7.9",
     "core-js": "^3.37.1",
+    "date-fns": "^4.1.0",
     "pinia": "^2.3.1",
     "roboto-fontface": "*",
     "vue": "^3.4.31",

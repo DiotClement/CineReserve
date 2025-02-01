@@ -1,9 +1,17 @@
 {
     "navBar": {
-         "home": "FILMS"
+          "home": "FILMS"
     },
     "homePage": {
-        "newLabel": "Nouveautés",
-        "screeningsLabel": "Séances"
-   }
+          "newLabel": "Nouveautés",
+          "screeningsLabel": "Séances"
+    },
+    "screeningPage": {
+          "rateLabel": "NOTE CERTIFIEE",
+          "durationLabel": "Durée : ",
+          "releaseDateLabel": "Date de sortie : ",
+          "screeningLabel": "Séances",
+          "validateBtn": "Valider",
+          "movieRentSuccess": "Séance réservée avec succès !"
+    } 
  }

@@ -13,6 +13,7 @@ import { createVuetify, type ThemeDefinition } from 'vuetify'
 import { createVueI18nAdapter } from 'vuetify/locale/adapters/vue-i18n'
 import { useI18n } from 'vue-i18n'
 import i18n from './i18n'
+import { VNumberInput } from 'vuetify/labs/VNumberInput'
 
 const customUGCTheme: ThemeDefinition = {
   dark: false,
@@ -34,5 +35,8 @@ export default createVuetify({
     themes : {
       customUGCTheme
       }
-  }
+  },
+  components: {
+    VNumberInput,
+  },
 })

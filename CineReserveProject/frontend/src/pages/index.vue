@@ -14,11 +14,15 @@ const router = useRouter()
 const movies = ref<Movie[]>([]);
 
 const fetchAllMovies = async() => {
-  const result = await MoviesService.getAllMovies()
-  if (result.isSuccess) {
-    movies.value = result.value
-  } else {
-    console.error("Error with the movies extraction :" + result.error.description)
+  try {
+    const result = await MoviesService.getAllMovies()
+    if (result.isSuccess) {
+      movies.value = result.value
+    } else {
+      console.error(result.error.description)
+    }
+  } catch (error) {
+    console.error("Error with the movies extraction :" + error)
   }
 }
 

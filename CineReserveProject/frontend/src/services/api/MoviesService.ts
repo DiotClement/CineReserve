@@ -2,7 +2,7 @@ import type { MovieListResponse } from "@/models/response/movie/MovieResponse";
 import { AxiosConfigurator } from "./AxiosConfigurator";
 
 /**
- * Defines the acios servoce for dealing with the api to perform movies queries.
+ * Defines the axios service for dealing with the api to perform movies queries.
  */
 export class MoviesService {
   /**
