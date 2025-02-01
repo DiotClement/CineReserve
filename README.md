@@ -1,4 +1,4 @@
-# CineReserveNotre
+# CineReserve
 
 ## Description
 CineReserve est une application web de réservation de séances de cinéma développée sous forme d'architecture micro-services. Ce projet s'inscrit dans le cadre de l'évaluation de la matière **Programmation Distribuée** et vise à démontrer la mise en œuvre de micro-services interconnectés pour assurer la gestion des réservations.
@@ -10,7 +10,7 @@ Le projet est composé de deux principaux services :
 
 ## Technologies utilisées
 - **Backend** :Notre première étape fut de créer des web services de type REST connecté à une base de données en local. 
-    - **Langage** :C# avec Spring Boot
+    - **Langage** :C# avec ASP.NET
   - **Base de données** : PostgreSQL
   - **API REST**
 - **Frontend** :
