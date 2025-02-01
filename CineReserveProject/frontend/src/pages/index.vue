@@ -1,10 +1,15 @@
 <script lang="ts" setup>
 import type { Movie } from '@/models/movie/MovieResponse';
 import { MoviesService } from '@/services/api/MoviesService';
-import { onMounted, ref } from 'vue';
+import { useSelectedMovieStore } from '@/stores/SelectedMovieStore';
+import { computed, onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
+import { useRouter } from 'vue-router';
 
 const { t } = useI18n()
+
+const selectedMovie = useSelectedMovieStore()
+const router = useRouter()
 
 const movies = ref<Movie[]>([]);
 
@@ -17,7 +22,21 @@ const fetchAllMovies = async() => {
   }
 }
 
-onMounted(fetchAllMovies)
+const uppercaseMovies = computed(() => {
+  return movies.value.map(movie => ({
+    ...movie,
+    title: movie.title.toUpperCase()
+  }));
+});
+
+onMounted(() => {
+  fetchAllMovies()
+})
+
+const handleClick = (movie: Movie) => {
+  selectedMovie.setSelectedMovie(movie)
+  router.push('/screeningsMovie')
+}
 </script>
 
 <template>
@@ -27,7 +46,7 @@ onMounted(fetchAllMovies)
     </h2>
     <v-row>
       <v-col
-        v-for="movie in movies"
+        v-for="movie in uppercaseMovies"
         :key="movie.id"
         cols="12"
         sm="6"
@@ -37,13 +56,24 @@ onMounted(fetchAllMovies)
         <v-card>
           <v-img
             :alt="movie.title"
-            class="v-card__image"
           />
           <v-card-text class="text-center">
-            <h3 class="text-h6 font-weight-bold">
+            <h3 class="text-h6 font-weight-bold uppercase-title">
               {{ movie.title }}
             </h3>
           </v-card-text>
+          <template #actions>
+            <v-btn
+              color="red-lighten-2"
+              :text="t('homePage.screeningsLabel')"
+              variant="outlined"
+              rounded="0"
+              size="x-large"
+              class
+              block
+              @click="handleClick(movie)"
+            />
+          </template>
         </v-card>
       </v-col>
     </v-row>
@@ -56,5 +86,6 @@ onMounted(fetchAllMovies)
   line-height: 34px;
   font-weight: 500;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 </style>

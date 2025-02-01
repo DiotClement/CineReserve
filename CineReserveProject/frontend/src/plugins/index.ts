@@ -11,10 +11,15 @@ import router from '../router'
 // Types
 import type { App } from 'vue'
 import i18n from './i18n'
+import { createPinia } from 'pinia'
+import ToastPlugin from 'vue-toast-notification'
 
 export function registerPlugins (app: App) {
+  const pinia = createPinia()
   app
+    .use(pinia)
     .use(vuetify)
     .use(router)
     .use(i18n)
+    .use(ToastPlugin)
 }

@@ -3,6 +3,7 @@
         "home": "MOVIES"
    },
    "homePage": {
-        "newLabel": "What's new"
+        "newLabel": "What's new",
+        "screeningsLabel": "Screenings"
    }
 }

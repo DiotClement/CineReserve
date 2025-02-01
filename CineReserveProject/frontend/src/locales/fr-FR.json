@@ -3,6 +3,7 @@
          "home": "FILMS"
     },
     "homePage": {
-        "newLabel": "Nouveautés"
+        "newLabel": "Nouveautés",
+        "screeningsLabel": "Séances"
    }
  }
