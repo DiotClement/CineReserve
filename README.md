@@ -9,13 +9,13 @@ Le projet est composé de deux principaux services :
 2. **Service Backend** : Gestion des films et des réservations.
 
 ## Technologies utilisées
-- **Backend** :Notre première étape fut de créer des web services de type REST connecté à une base de données en local. 
-    - **Langage** :C# avec ASP.NET
+- **Backend** :
+    - **Langage** :C# avec ASP.NET8
   - **Base de données** : PostgreSQL
   - **API REST**
 - **Frontend** :
   - **Framework** : Vue.js
-  - **Consommation l'API REST du backend**
+  - **Consommation du micro-service de l'API REST du backend**
 - **Autres outils** :
   - Docker (conteneurisation des micro-services)
   - Postman (tests des API REST)
@@ -24,15 +24,15 @@ Le projet est composé de deux principaux services :
   - Git/GitHub (gestion de version et collaboration)
 
 ## Fonctionnalités principales
-- 📌 Consulter la liste des films disponibles.
-- 🎟 Réserver une séance de cinéma.
-- 📝 Gérer les réservations.
-- 📂 Stocker et récupérer les données des films et des réservations via une base PostgreSQL.
+- Consulter la liste des films disponibles.
+- Séléctionner un film à voir.
+- Choisir l'horaire de la séance de cinéma.
+- Réserver la séance.
 
 ## Installation et exécution
 ### Prérequis
 - **Node.js** (pour le frontend)
-- **Java 17+** (pour le backend)
+
 - **PostgreSQL**
 - **Docker** (optionnel, pour exécuter les services en conteneurs)
 
