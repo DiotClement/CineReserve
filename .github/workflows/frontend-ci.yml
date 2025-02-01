@@ -1,0 +1,31 @@
+name: CI for Vue.js Frontend 🎨
+
+on:
+  pull_request:
+    branches: [master, develop, release/*, hotfix/*]
+
+env:
+  NODE_VERSION: '22.x.x'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 🐢
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies 📦
+        run: npm ci
+
+      - name: Lint code 🔍
+        run: npm run lint
+
+      - name: Build project 🏗️
+        run: npm run build --if-present

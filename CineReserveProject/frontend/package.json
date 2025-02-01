@@ -43,5 +43,9 @@
     "vite-plugin-vuetify": "^2.0.3",
     "vue-router": "^4.4.0",
     "vue-tsc": "^2.1.10"
+  },
+  "volta": {
+    "node": "22.13.1",
+    "npm": "11.1.0"
   }
 }
