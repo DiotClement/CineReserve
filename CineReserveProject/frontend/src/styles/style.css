@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Uniform Extra Condensed';
+    src: url('/src/assets/fonts/Uniform\ Extra\ Condensed.ttf') format('truetype');
+}
+
+:root {
+    --font-title: 'Uniform Extra Condensed';
+    --color-title: #001340;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+    color: var(--color-title);
+    text-transform: uppercase;
+}

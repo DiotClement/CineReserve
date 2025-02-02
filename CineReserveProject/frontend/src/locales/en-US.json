@@ -1,0 +1,17 @@
+{
+     "navBar": {
+          "home": "MOVIES"
+     },
+     "homePage": {
+          "newLabel": "What's new",
+          "screeningsLabel": "Screenings"
+     },
+     "screeningPage": {
+          "rateLabel": "CERTIFIED NOTE",
+          "durationLabel": "Duration : ",
+          "releaseDateLabel": "Release date : ",
+          "screeningLabel": "Screenings",
+          "validateBtn": "Validate",
+          "movieRentSuccess": "Session successfully booked !"
+     } 
+}
