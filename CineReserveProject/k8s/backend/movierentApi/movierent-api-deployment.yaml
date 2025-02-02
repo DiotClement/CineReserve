@@ -25,4 +25,6 @@ spec:
               value: "http://+:5000"
             - name: ConnectionStrings__PostgreSqlConnection
               value: "Host=movierent-db;Database=MOVIE_RENT;Username=postgres;Password=root;Include Error Detail=true"
+            - name: CorsConfig__Whitelist
+              value: "http://movierent.local"
       restartPolicy: Always

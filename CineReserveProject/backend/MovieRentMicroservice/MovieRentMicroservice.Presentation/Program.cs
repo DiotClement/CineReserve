@@ -14,7 +14,7 @@ builder.Services
 	.AddApplication()
 	.AddInfrastructure();
 
-string[]? whitelistUrl = builder.Configuration.GetSection("CorsConfig:Whitelist").Get<string[]>();
+string? whitelistUrl = builder.Configuration.GetSection("CorsConfig:Whitelist").Get<string>();
 
 //builder.Host.UseSerilog((context, configuration) =>
 //configuration.ReadFrom.Configuration(context.Configuration));
@@ -28,7 +28,7 @@ if (app.Environment.IsDevelopment())
 	app.UseSwaggerUI();
 }
 
-if (whitelistUrl == null || whitelistUrl.Length < 1)
+if (whitelistUrl == null)
 {
 	throw new Exception("The CorsConfiguration is not valid in appsettings !");
 }
