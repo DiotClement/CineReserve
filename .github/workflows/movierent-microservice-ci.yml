@@ -2,10 +2,10 @@ name: CI for MovieRent microservice 🧪
 
 on:
   pull_request:
-    branches: [ master, develop, release/*, hotfix/* ]
+    branches: [main, develop, release/*, hotfix/*]
 
 env:
-  DOTNET_VERSION: '8.0.x'
+  DOTNET_VERSION: "8.0.x"
 
 jobs:
   build:
@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
-    
+
       - name: Install dependencies 📂
         run: dotnet restore CineReserveProject/backend/MovieRentMicroservice/MovieRentMicroservice.Presentation/MovieRentMicroservice.Presentation.csproj
 

@@ -2,7 +2,7 @@ name: CI for Vue.js Frontend 🎨
 
 on:
   pull_request:
-    branches: [master, develop, release/*, hotfix/*]
+    branches: [main, develop, release/*, hotfix/*]
 
 env:
   NODE_VERSION: '22.x.x'
