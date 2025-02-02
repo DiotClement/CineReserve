@@ -10,58 +10,52 @@ Le projet est composé de deux principaux services :
 
 ## Technologies utilisées
 - **Backend** :
-    - **Langage** :C# avec ASP.NET8
+    - **Langage** : API REST Web C# avec ASP.NET 8
   - **Base de données** : PostgreSQL
-  - **API REST**
 - **Frontend** :
-  - **Framework** : Vue.js
-  - **Consommation du micro-service de l'API REST du backend**
+  - **Framework** : Vue JS 3 + Vuetify
 - **Autres outils** :
-  - Docker (conteneurisation des micro-services)
-  - Postman (tests des API REST)
+  - Docker
+  - Postman
   - Swagger
   - Kubernetes
-  - Git/GitHub (gestion de version et collaboration)
+  - Git/GitHub
 
 ## Fonctionnalités principales
 - Consulter la liste des films disponibles.
-- Séléctionner un film à voir.
-- Choisir l'horaire de la séance de cinéma.
-- Réserver la séance.
+- Sélectionner un film à voir.
+- Choisir l'horaire de la séance du film.
+- Réserver la séance de cinéma.
+- Visualiser les réservations.
 
 ## Installation et exécution
-### Prérequis
-- **Node.js** (pour le frontend)
-
-- **PostgreSQL**
-- **Docker** (optionnel, pour exécuter les services en conteneurs)
-
 ### Étapes d'installation
 #### 1. Cloner le projet
 ```bash
-  git clone https://github.com/votre-repo/CineReserveNotre.git
-  cd CineReserveNotre
+  git clone https://github.com/DiotClement/CineReserve.git
+  cd CineReserveProject/k8s
 ```
 
-#### 2. Démarrer le backend
+#### 2. Déployer sur minikube
 ```bash
-  cd backend
-  mvn spring-boot:run
+  kubectl apply -f postgres-secret.yaml
+  kubectl apply -f postgres-storage.yaml
+  kubectl apply -f configmap.yaml
+  kubectl apply -f movierent-db-deployment.yaml
+  kubectl apply -f movierent-db-service.yaml
+  kubectl apply -f movierent-api-deployement.yaml
+  kubectl apply -f movierent-api-service.yaml
+  kubectl apply -f frontend-deployment.yaml
+  kubectl apply -f frontend-service.yaml
+  kubectl apply -f ingress.yaml
 ```
 
-#### 3. Démarrer le frontend
-```bash
-  cd frontend
-  npm install
-  npm start
-```
-
-#### 4. Accéder à l'application
-- **Frontend** : [http://localhost:3000/](http://localhost:3000/)
-- **Backend** : [http://localhost:8080/api](http://localhost:8080/api)
+#### 3. Accéder à l'application
+- **Frontend** : http://movierent.local/
+- **Backend** : http://api.movierent.local/swagger/index.html
 
 ## Auteurs
-- **Anais OUALI**
+- **Anaïs OUALI**
 - **Clément DIOT**
 
 ## Licence
