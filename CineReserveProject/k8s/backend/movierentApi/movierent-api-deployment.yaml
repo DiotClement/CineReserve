@@ -15,7 +15,7 @@ spec:
       containers:
         - name: movierent-api
           image: diotclementt/movierent-microservice-api:v1
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:
