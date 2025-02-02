@@ -55,5 +55,6 @@
 	public static class ReservationsErrors
 	{
 		public static readonly Error InsertReservationFailure = Error.Failure("Reservations.Failure", "Error executing the sql query to insert a reservation in the database.");
+		public static readonly Error NoReservationFound = Error.NotFound("Reservations.NotFound", "No reservations found in the database.");
 	}
 }

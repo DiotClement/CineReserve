@@ -3,6 +3,7 @@
 	using MovieRentMicroservice.Application.Reservation.Commands;
 	using MediatR;
 	using Microsoft.AspNetCore.Mvc;
+	using MovieRentMicroservice.Application.Reservation.Queries;
 
 	/// <summary>
 	/// The reservations controller.
@@ -16,6 +17,12 @@
 		public async Task<IActionResult> InsertMovieRent([FromBody] InsertMovieRentCommand request, CancellationToken cancellationToken)
 		{
 			return await HandleRequestAsync(request, cancellationToken);
+		}
+
+		[HttpGet]
+		public async Task<IActionResult> GetAllReservations(CancellationToken cancellationToken)
+		{
+			return await HandleRequestAsync(new GetAllReservationsQuery(), cancellationToken);
 		}
 	}
 }
