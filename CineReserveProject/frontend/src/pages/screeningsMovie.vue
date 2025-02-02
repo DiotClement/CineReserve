@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { Schedule } from '@/models/schedule/ScheduleResponse';
+import type { Schedule } from '@/models/schedule/Schedule';
 import { SchedulesService } from '@/services/api/SchedulesService';
 import { useSelectedMovieStore } from '@/stores/SelectedMovieStore';
 import { computed, onMounted, ref } from 'vue';
@@ -8,15 +8,15 @@ import { fr } from 'date-fns/locale'
 import { format } from 'date-fns'
 import router from '@/router';
 import { useToast } from 'vue-toast-notification';
-import type { Reservation } from '@/models/reservation/ReservationRequest';
 import { ReservationsService } from '@/services/api/ReservationsService';
+import type { ReservationRequest } from '@/models/reservation/Reservation';
 
 const { t } = useI18n()
 
 const selectedMovie = useSelectedMovieStore()
 
 const schedules = ref<Schedule[]>([]);
-const reservation = ref<Reservation | null>(null);
+const reservation = ref<ReservationRequest | null>(null);
 const selectedScheduleId = ref<number | null>(null);
 const seatCount = ref(1);
 

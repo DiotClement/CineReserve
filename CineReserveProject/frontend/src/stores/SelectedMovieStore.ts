@@ -1,4 +1,4 @@
-import type { Movie } from "@/models/movie/MovieResponse";
+import type { Movie } from "@/models/movie/Movie";
 import { defineStore } from "pinia";
 
 export const useSelectedMovieStore = defineStore("selectedMovie", {

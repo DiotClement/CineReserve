@@ -1,6 +1,7 @@
 {
      "navBar": {
-          "home": "MOVIES"
+          "home": "MOVIES",
+          "reservation": "RESERVATIONS"
      },
      "homePage": {
           "newLabel": "What's new",
@@ -13,5 +14,12 @@
           "screeningLabel": "Screenings",
           "validateBtn": "Validate",
           "movieRentSuccess": "Session successfully booked !"
-     } 
+     },
+     "reservationPage": {
+          "title": "Reservations",
+          "search": "Search",
+          "movieTitleHeader": "Movie title",
+          "screeningShowtimeHeader": "Screening time",
+          "seatCount": "Number of reserved seats"
+    }
 }

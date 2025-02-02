@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { Movie } from '@/models/movie/MovieResponse';
+import type { Movie } from '@/models/movie/Movie';
 import { MoviesService } from '@/services/api/MoviesService';
 import { useSelectedMovieStore } from '@/stores/SelectedMovieStore';
 import { computed, onMounted, ref } from 'vue';

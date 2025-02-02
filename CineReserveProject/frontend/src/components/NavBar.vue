@@ -10,24 +10,38 @@ const { t } = useI18n()
     color="primary"
     height="100"
   >
-    <template #prepend>
-      <v-img
-        alt="Cine Reserve logo"
-        :src="logo"
-      />
-    </template>
+    <v-spacer />
+    <v-img
+      alt="Cine Reserve logo"
+      :src="logo"
+      class="mx-8"
+    />
 
     <v-spacer />
 
-    <v-btn
-      to="/"
-      color="white"
-      variant="text"
-      class="text-body-2 font-weight-bold d-flex flex-column"
-      prepend-icon="mdi-magnify"
-      stacked
-    >
-      <span>{{ t('navBar.home') }}</span>
-    </v-btn>
+    <div class="d-flex">
+      <v-btn
+        to="/"
+        color="white"
+        variant="text"
+        class="text-body-2 flex-column mx-2"
+        prepend-icon="mdi-movie-open-outline"
+        stacked
+      >
+        <span>{{ t('navBar.home') }}</span>
+      </v-btn>
+      <v-btn
+        to="/reservationsMovie"
+        color="white"
+        variant="text"
+        class="text-body-2 flex-column"
+        prepend-icon="mdi-ticket-outline"
+        stacked
+      >
+        <span>{{ t('navBar.reservation') }}</span>
+      </v-btn>
+    </div>
+
+    <v-spacer />
   </v-app-bar>
 </template>

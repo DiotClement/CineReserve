@@ -27,7 +27,8 @@
 			IEnumerable<Schedule>? schedules = await dbConnection.QueryAsync<Schedule>(@"SELECT s_id as Id, s_showtime as Showtime 
 																						 FROM m_schedule
 																						 LEFT JOIN m_movie ON s_fk_movie_id = m_movie.m_id
-																						 WHERE s_fk_movie_id = @MovieId", new { MovieId = request.MovieId });
+																						 WHERE s_fk_movie_id = @MovieId
+																						 ORDER BY s_showtime ASC", new { MovieId = request.MovieId });
 																					
 			if (!schedules.Any())
 			{

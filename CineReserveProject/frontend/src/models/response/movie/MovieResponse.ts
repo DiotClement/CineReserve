@@ -1,4 +1,4 @@
-import type { Movie } from "@/models/movie/MovieResponse"
+import type { Movie } from "@/models/movie/Movie"
 import type { RequestResponse } from "../RequestResponse"
 
 export type MovieResponse = RequestResponse<Movie>
