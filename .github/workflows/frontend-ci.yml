@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies 📦
         run: |
           cd CineReserveProject/frontend
-          npm ci
+          npm install
 
       - name: Build project 🏗️
         run: |
